@@ -131,7 +131,6 @@ GameObject:
   - component: {fileID: 153571528}
   - component: {fileID: 153571527}
   - component: {fileID: 153571526}
-  - component: {fileID: 153571525}
   m_Layer: 0
   m_Name: Wall 01
   m_TagString: Untagged
@@ -139,34 +138,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &153571525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 153571524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 438108c019611934aa3d1e4d5b6e8b5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PushbackTrigger
-  playerRoot: {fileID: 0}
-  playerBoxCollider: {fileID: 0}
-  pushDistance: 2
-  pushSpeed: 4
-  pulseColor:
-    r: 1
-    g: 0
-    b: 0
-    a: 1
-  playerRenderer: {fileID: 0}
-  originalPlayerColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
-  myCollider: {fileID: 0}
 --- !u!65 &153571526
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -271,8 +242,6 @@ GameObject:
   - component: {fileID: 1445272790}
   - component: {fileID: 1445272789}
   - component: {fileID: 1445272788}
-  - component: {fileID: 1445272792}
-  - component: {fileID: 1445272793}
   m_Layer: 0
   m_Name: Wall 02
   m_TagString: Untagged
@@ -372,55 +341,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
---- !u!114 &1445272792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1445272787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 438108c019611934aa3d1e4d5b6e8b5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PushbackTrigger
-  playerRoot: {fileID: 0}
-  playerBoxCollider: {fileID: 0}
-  pushDistance: 2
-  pushSpeed: 10
-  pulseColor:
-    r: 0
-    g: 0.054832935
-    b: 1
-    a: 1
-  playerRenderer: {fileID: 0}
-  originalPlayerColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
-  myCollider: {fileID: 0}
---- !u!65 &1445272793
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1445272787}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1994936140
 GameObject:
   m_ObjectHideFlags: 0
